@@ -1,0 +1,54 @@
+.background{
+    background: linear-gradient(to right,gray,dimgray, black);
+}
+.active{
+    border-bottom: 2px solid white;
+    background-color: gray !important;
+}
+.card-title{
+    font-size: 1rem;
+    height: 90px;
+}
+
+.card-text{
+    font-size: 0.9rem;
+    height: 200px;
+}
+
+.source-date{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: -20px;
+}
+
+.source-date p{
+    font-size: 0.8rem;
+}
+
+@media only screen and (min-width:0) and (max-width:575px) {
+
+    .card-title{
+        
+        height: 40px;
+    }
+    
+    .card-text{
+        
+        height: 80px;
+    }
+
+}
+
+@media only screen and (min-width:576) and (max-width:767px) {
+
+    .card-title{
+        
+        height: 40px;
+    }
+    
+    .card-text{
+        
+        height: 80px;
+    }
+
+}
